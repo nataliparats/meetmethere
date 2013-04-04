@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.login" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:label="@string/app_name" android:theme="@style/StyleTest">
+        <uses-library android:name="com.google.android.maps"/>
+        <activity android:label="@string/app_name" android:name="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".registration"/>
+        <activity android:name=".createnewgroup"/>
+        <activity android:name=".groupmember"/>
+        <activity android:name=".login"/>
+        <activity android:name=".home"/>
+        <activity android:name=".event_info"/>
+        <activity android:name=".events"/>
+        <activity android:name=".mapevent"/>
+        <activity android:name=".profile"/>
+        <activity android:name=".editprofile"/>
+        <activity android:name=".addevent"/>
+        <activity android:name=".addeventaddress"/>
+        <activity android:name=".global_map"/>
+        <activity android:name=".settings"/>
+        <activity android:name=".contacts"/>
+        <activity android:name=".addeventinvite"/>
+        <activity android:name=".addnewcontact"/>
+        <activity android:name=".group"/>
+        <activity android:name=".participants"/>
+    </application>
+    <uses-library android:name="com.google.android.maps"/>
+</manifest>

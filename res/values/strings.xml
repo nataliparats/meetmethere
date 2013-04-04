@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Meet me there</string>
+    <string name="fullname">full Name :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="website">Web Site :</string>
+    <string name="country">Country :</string>
+    <string name="keymap">0hmUC2aIuAhDCAiNb1JwklKVyCFDYIk-Z4MafYg</string>
+    <string name="info">info</string>
+    <string name="map">map</string>
+    <string name="participate">participate</string>
+    <string name="attend">attend</string>
+    <string name="miss">miss</string>
+    <string name="search">Search...</string>
+</resources>

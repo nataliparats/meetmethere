@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="StyleTest">
+        <item name="android:windowBackground">@color/gray01</item>
+        <item name="android:colorBackground">@color/gray01</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/gray02</item>
+        <item name="android:windowTitleSize">35dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/title_style</item>
+        <item name="android:buttonStyle">@style/custom_btn_style</item>
+    </style>
+
+    <style name="search_header">
+        <item name="android:background">@drawable/search_bg</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:background">@drawable/title_bg</item>
+    </style>
+
+    <style name="custom_btn_style">
+        <item name="android:background">@drawable/custom_btn</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
